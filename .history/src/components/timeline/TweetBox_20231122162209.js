@@ -8,7 +8,7 @@ function TweetBox() {
             <Avatar />
             <input placeholder="いまどうしてる？" type='text'>
             </input>
-            <input className='tweetBox--imageInput'></input>
+            <input className='tweetBox--imageInput'
         </form>
     </div>
   );

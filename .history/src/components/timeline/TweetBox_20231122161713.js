@@ -6,12 +6,11 @@ function TweetBox() {
     <div className='TweetBox'>
         <form>
             <Avatar />
-            <input placeholder="いまどうしてる？" type='text'>
+            <input>
             </input>
-            <input className='tweetBox--imageInput'></input>
         </form>
     </div>
-  );
+  )
 }
 
 export default TweetBox;

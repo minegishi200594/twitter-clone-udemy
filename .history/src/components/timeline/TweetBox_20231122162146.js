@@ -6,9 +6,9 @@ function TweetBox() {
     <div className='TweetBox'>
         <form>
             <Avatar />
-            <input placeholder="いまどうしてる？" type='text'>
+            <input placeholder="いまどうしてる？">
             </input>
-            <input className='tweetBox--imageInput'></input>
+            <input className='tweetBox--ima'
         </form>
     </div>
   );
