@@ -17,7 +17,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       {/* ツイッターアイコン */}
-      <TwitterIcon className="sidebar--twitterIcon" />
+      <InstagramIcon className="sidebar--twitterIcon" />
 
       {/* SidebarOption */}
       <SidebarOption text="ホーム" Icon={HomeIcon} />
@@ -36,7 +36,7 @@ function Sidebar() {
 
       {/* ツイートボタン */}
       <Button variant="outlined" className="sidebar--tweet">
-        ツイートする
+        する
       </Button>
     </div>
   );

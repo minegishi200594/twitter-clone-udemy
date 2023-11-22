@@ -17,7 +17,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       {/* ツイッターアイコン */}
-      <TwitterIcon className="sidebar--twitterIcon" />
+      < className="sidebar--twitterIcon" />
 
       {/* SidebarOption */}
       <SidebarOption text="ホーム" Icon={HomeIcon} />
