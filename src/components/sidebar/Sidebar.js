@@ -11,13 +11,12 @@ import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import { Button } from "@mui/material";
 import "./Sidebar.css";
-import InstagramIcon from "@mui/icons-material/Instagram";
 
 function Sidebar() {
   return (
     <div className="sidebar">
       {/* ツイッターアイコン */}
-      <InstagramIcon className="sidebar--twitterIcon" />
+      <TwitterIcon className="sidebar--twitterIcon" />
 
       {/* SidebarOption */}
       <SidebarOption text="ホーム" Icon={HomeIcon} />
@@ -35,8 +34,8 @@ function Sidebar() {
       {/* SidebarOption */}
 
       {/* ツイートボタン */}
-      <Button variant="outlined" className="sidebar--tweet">
-        わ゜する
+      <Button variant="outlined" className="sidebar--tweet" fullWidth>
+        ツイートする
       </Button>
     </div>
   );
